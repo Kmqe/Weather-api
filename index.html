@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== Font Awesome ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--========== BootStrap ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!--========== Main Style File ==========-->
+    <link rel="stylesheet" href="style.css">
+    <title>الطقس</title>
+</head>
+<body>
+
+
+    <div class="search_container container mt-5 d-flex column-gap-2" >
+        <input type="search" class="w-100 p-2" id="input_search">
+        <button id="btn_search">Search</button>
+    </div>
+
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="weather-container p-5 text-light" id="weather_container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                    <h2 class="d-inline-block ms-2">Saudi Arabia,</h2>
+                    <h2 class="d-inline-block ms-2"></h2>
+                </div>
+                <div>
+                    <h2 class="text-capitalize">Sunny</h2>
+                </div>
+            </div>
+            <div class="mt-5 d-flex align-items-center justify-content-between">
+                <h1 class="degree">21C</h1>
+                <img src="https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png" style="width: 100px;">
+            </div>
+            <div class="mt-5 d-flex align-items-center justify-content-between column-gap-4">
+                <div class="weather-item d-flex align-items-center justify-content-between rounded-pill w-100">
+                    <i class="fa-solid fa-cloud-showers-heavy fa-2x"></i>
+                    <h2>7%</h2>
+                </div>
+                
+                <div class="weather-item d-flex align-items-center justify-content-between rounded-pill w-100">
+                    <i class="fa-solid fa-water fa-2x"></i>
+                    <h2>7%</h2>
+                </div>
+
+                <div class="weather-item d-flex align-items-center justify-content-between rounded-pill w-100">
+                    <i class="fa-solid fa-wind fa-2x"></i>
+                    <h2>7%</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
