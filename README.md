@@ -1,5 +1,5 @@
 # 🚀 Weather App - Simple
-🔗**DEMO** [visit](link)
+🔗**DEMO** [visit](https://kmqe.github.io/Weather-api/)
 
 ## 📋 Overview
 A simple app to fetch real-time weather information using the Weather API. It displays the temperature, weather condition, and wind speed for any city worldwide in an easy and fast way.
